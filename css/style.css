@@ -1,0 +1,63 @@
+.text-box h3 {
+    color: pink;
+}
+
+#greycol {
+    color: grey;
+}
+
+.text-box div p {
+    color: red;
+}
+
+.text-box p:nth-of-type(3) {
+    color: green;
+}
+
+.yellow {
+    color: yellow;
+}
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Псевдокласи стану */
+td:hover {
+    background-color: lightblue;
+}
+
+td:active {
+    background-color: lightcoral;
+}
+
+td:focus {
+    outline: 2px solid blue;
+}
+
+/* Структурні псевдокласи */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+tr:first-child {
+    background-color: #d9edf7;
+}
+
+tr:last-child {
+    background-color: #dff0d8;
+}
+
+tr:nth-of-type(3) {
+    background-color: #fcf8e3;
+}
